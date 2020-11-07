@@ -23,7 +23,6 @@ public class TebakAngka {
         tebakAngkaGenerator mainkan = new tebakAngkaGenerator();
         Scanner tebakan = new Scanner(System.in);
         mainkan.acakAngka();
-        System.out.println(mainkan.angkaBenar);
         while (true){
             jumlahKesempatan +=1;
             if (mainkan.gameover() == false){
